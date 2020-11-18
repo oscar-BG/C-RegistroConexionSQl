@@ -1,0 +1,11 @@
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\bin\Debug\appUsuario.exe.config
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\bin\Debug\appUsuario.exe
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\bin\Debug\appUsuario.pdb
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.csprojAssemblyReference.cache
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.FBienvenido.resources
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.Form1.resources
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.Properties.Resources.resources
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.csproj.GenerateResource.cache
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.csproj.CoreCompileInputs.cache
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.exe
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.pdb
