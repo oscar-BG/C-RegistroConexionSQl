@@ -9,3 +9,4 @@ D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\a
 D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.csproj.CoreCompileInputs.cache
 D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.exe
 D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.pdb
+D:\Programacion\BaseDeDatos\ConexionSqlCSharp\appConexion\appUsuario\obj\Debug\appUsuario.Form3.resources

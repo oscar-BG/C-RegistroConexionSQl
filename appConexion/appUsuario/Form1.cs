@@ -13,6 +13,7 @@ namespace appUsuario
 {
     public partial class Form1 : Form
     {
+
         FBienvenido f2 = new FBienvenido();
         SqlConnection cadenaConexion = new SqlConnection("Data Source=LAPTOP-OBEL3V1L;Initial Catalog=Sabatino;Integrated Security=True");
         public Form1()
@@ -22,6 +23,7 @@ namespace appUsuario
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+
             String cadenaSql = "select * from usuarios where nombreUsuario = " + "'" + txtUsuario.Text + "' and clave = " + "'" + txtPassword.Text + "'";
 
             SqlCommand comando = new  SqlCommand(cadenaSql, cadenaConexion);
