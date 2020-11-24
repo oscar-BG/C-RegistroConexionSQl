@@ -50,9 +50,9 @@
             this.cbxSituacion = new System.Windows.Forms.ComboBox();
             this.cbxSexo = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.lblEdad = new System.Windows.Forms.Label();
+            this.txtEdad = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -210,10 +210,16 @@
             this.dtpFechaNac.Name = "dtpFechaNac";
             this.dtpFechaNac.Size = new System.Drawing.Size(200, 20);
             this.dtpFechaNac.TabIndex = 18;
+            this.dtpFechaNac.ValueChanged += new System.EventHandler(this.dtpFechaNac_ValueChanged);
             // 
             // cbxSituacion
             // 
             this.cbxSituacion.FormattingEnabled = true;
+            this.cbxSituacion.Items.AddRange(new object[] {
+            "A",
+            "B",
+            "T",
+            "P"});
             this.cbxSituacion.Location = new System.Drawing.Point(27, 92);
             this.cbxSituacion.Name = "cbxSituacion";
             this.cbxSituacion.Size = new System.Drawing.Size(121, 21);
@@ -222,6 +228,9 @@
             // cbxSexo
             // 
             this.cbxSexo.FormattingEnabled = true;
+            this.cbxSexo.Items.AddRange(new object[] {
+            "M",
+            "F"});
             this.cbxSexo.Location = new System.Drawing.Point(29, 280);
             this.cbxSexo.Name = "cbxSexo";
             this.cbxSexo.Size = new System.Drawing.Size(121, 21);
@@ -230,7 +239,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnAceptar);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 544);
@@ -238,14 +247,15 @@
             this.panel1.Size = new System.Drawing.Size(489, 100);
             this.panel1.TabIndex = 21;
             // 
-            // button2
+            // btnAceptar
             // 
-            this.button2.Location = new System.Drawing.Point(346, 32);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Aceptar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAceptar.Location = new System.Drawing.Point(346, 32);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.TabIndex = 1;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // button1
             // 
@@ -257,21 +267,21 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // lblEdad
+            // txtEdad
             // 
-            this.lblEdad.AutoSize = true;
-            this.lblEdad.Location = new System.Drawing.Point(277, 509);
-            this.lblEdad.Name = "lblEdad";
-            this.lblEdad.Size = new System.Drawing.Size(13, 13);
-            this.lblEdad.TabIndex = 22;
-            this.lblEdad.Text = "0";
+            this.txtEdad.Enabled = false;
+            this.txtEdad.Location = new System.Drawing.Point(264, 509);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(42, 20);
+            this.txtEdad.TabIndex = 22;
+            this.txtEdad.Text = "0";
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(489, 644);
-            this.Controls.Add(this.lblEdad);
+            this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.cbxSexo);
             this.Controls.Add(this.cbxSituacion);
@@ -326,8 +336,8 @@
         private System.Windows.Forms.ComboBox cbxSituacion;
         private System.Windows.Forms.ComboBox cbxSexo;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label lblEdad;
+        private System.Windows.Forms.TextBox txtEdad;
     }
 }
