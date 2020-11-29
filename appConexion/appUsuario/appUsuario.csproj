@@ -52,6 +52,12 @@
     <Compile Include="FBienvenido.Designer.cs">
       <DependentUpon>FBienvenido.cs</DependentUpon>
     </Compile>
+    <Compile Include="FConsultarUno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FConsultarUno.Designer.cs">
+      <DependentUpon>FConsultarUno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FBienvenido.resx">
       <DependentUpon>FBienvenido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FConsultarUno.resx">
+      <DependentUpon>FConsultarUno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

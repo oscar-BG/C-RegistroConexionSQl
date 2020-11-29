@@ -33,5 +33,11 @@ namespace appUsuario
             Form3 f3 = new Form3();
             f3.ShowDialog();
         }
+
+        private void unoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FConsultarUno consulta = new FConsultarUno();
+            consulta.ShowDialog();
+        }
     }
 }
