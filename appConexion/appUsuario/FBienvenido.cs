@@ -39,5 +39,11 @@ namespace appUsuario
             FConsultarUno consulta = new FConsultarUno();
             consulta.ShowDialog();
         }
+
+        private void todosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FTabla tablaRegistro = new FTabla();
+            tablaRegistro.ShowDialog();
+        }
     }
 }

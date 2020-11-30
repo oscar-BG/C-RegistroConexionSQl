@@ -44,6 +44,7 @@ namespace appUsuario
             txtEdad.Text = "";
             txtCPostal.Text = "";
             txtLNacimiento.Text = "";
+            txtNacionalidad.Text = "";
 
         }
 
